@@ -1,0 +1,101 @@
+{
+  "n_restaurants": 250,
+  "best_k": 5,
+  "kmeans_silhouette": 0.2341,
+  "hierarchical_silhouette": 0.2034,
+  "dbscan_clusters_found": 1,
+  "pca_explained_variance": [
+    0.3056,
+    0.1623,
+    0.1163,
+    0.0842,
+    0.0719
+  ],
+  "top_loadings": {
+    "PC1": [
+      "AOV",
+      "RevenuePerOrder",
+      "ScaleIndex_pt",
+      "CostBurden"
+    ],
+    "PC2": [
+      "AggregatorDependence",
+      "SD_share",
+      "NetMarginPct",
+      "AggregatorRevenueShare"
+    ],
+    "PC3": [
+      "DeliveryEfficiency",
+      "InStoreShare",
+      "SD_share",
+      "AggregatorDependence"
+    ]
+  },
+  "cluster_sizes": {
+    "High-Growth / High-Risk": 81,
+    "Aggregator-Dependent Low Margin": 60,
+    "Stable Local Performers": 58,
+    "Scalable Self-Delivery Leaders": 28,
+    "Overextended, Low Return": 23
+  },
+  "cluster_profile_means": {
+    "Aggregator-Dependent Low Margin": {
+      "GPI": 42.25,
+      "NetMarginPct": 0.135,
+      "AggregatorDependence": 0.709,
+      "ScaleIndex": 2721.852,
+      "CostBurden": 0.723,
+      "TotalRevenue": 107366.23,
+      "TotalNetProfit": 14568.095
+    },
+    "High-Growth / High-Risk": {
+      "GPI": 61.563,
+      "NetMarginPct": 0.242,
+      "AggregatorDependence": 0.728,
+      "ScaleIndex": 5070.715,
+      "CostBurden": 0.6,
+      "TotalRevenue": 168301.626,
+      "TotalNetProfit": 40885.032
+    },
+    "Overextended, Low Return": {
+      "GPI": 22.557,
+      "NetMarginPct": 0.095,
+      "AggregatorDependence": 0.672,
+      "ScaleIndex": 937.02,
+      "CostBurden": 0.803,
+      "TotalRevenue": 43496.483,
+      "TotalNetProfit": 4108.928
+    },
+    "Scalable Self-Delivery Leaders": {
+      "GPI": 52.068,
+      "NetMarginPct": 0.281,
+      "AggregatorDependence": 0.619,
+      "ScaleIndex": 2804.348,
+      "CostBurden": 0.595,
+      "TotalRevenue": 97272.993,
+      "TotalNetProfit": 27311.908
+    },
+    "Stable Local Performers": {
+      "GPI": 47.348,
+      "NetMarginPct": 0.264,
+      "AggregatorDependence": 0.751,
+      "ScaleIndex": 2783.813,
+      "CostBurden": 0.598,
+      "TotalRevenue": 97913.495,
+      "TotalNetProfit": 24741.524
+    }
+  },
+  "overall_median": {
+    "GPI": 48.4,
+    "NetMarginPct": 0.2134,
+    "AggregatorDependence": 0.716,
+    "ScaleIndex": 3126.9384,
+    "CostBurden": 0.6346
+  },
+  "gpi_distribution": {
+    "mean": 48.98,
+    "median": 48.4,
+    "min": 13.9,
+    "max": 83.5
+  }
+}
